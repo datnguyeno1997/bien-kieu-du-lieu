@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let Vl = parseInt(prompt("nhập biến vật lý"));
+        let H =  parseInt(prompt("nhập biến Hóa "));
+        let S = parseInt(prompt (" nhập biến Sinh học"));
+        let Average=(Vl + H + S) / 3;
+        // Vật lý = prompt("nhập biến vật lý");
+        // Hóa =  prompt("nhập biến Hóa ");
+        // Sinh Học =  prompt (" nhập biến Sinh học");
+        let DTB=Math.round((Average+Number.EPSILON)*100)/100;
+        document.write("Average = " + DTB);
+    </script>
+</body>
+</html>
